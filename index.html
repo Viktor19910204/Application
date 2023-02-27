@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Заявки в ОГМ</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list list-reset">
+                <li class="nav__item"><a href="#agreement" class="nav__link">Заявки на подтверждении</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Заявки в работе</a></li>
+                <li class="nav__item"><a href="#closeapp" class="nav__link">Архив заявок</a></li>
+            </ul>
+        </nav>
+        <section class="user">
+            <div class="user__block">
+                <div class="user__name">Ковалев М.В.</div>
+                <button class="user__btn">Выйти</button>
+            </div>
+        </section>
+    </header>
+    <sectino class="enter">
+        <div class="container">
+            <div class="enter__wrap">
+                <h3 class="title">Введите логин и пароль</h3>
+                <div class="enter__block">
+                    <div class="enter__name">Логин:</div>
+                    <input id="login" type="text" class="enter__input">
+                </div>
+                <div class="enter__block">
+                    <div class="enter__name">Пароль:</div>
+                    <input id="password" type="text" class="enter__input">
+                </div>
+                <button id="enter" class="enter__btn">Войти</button>
+                <div class="enter__block">
+                    <div class="enter__message"></div>
+                </div>
+            </div>
+        </div>
+    </sectino>
+    <section class="start">
+        <div class="container">
+            <h1 class="title">Заявки на выполнение работ в отдел главного механика</h1>
+            <div class="start__wrap">
+                <div class="start__blockwrap">
+                    <div class=" block block_horizontal"></div>
+                    <div class="block block_vertical"></div>
+                </div>
+                <div class="start__supply">Подать заявку</div>
+            </div>
+        </div>
+    </section>
+    <section class="fill">
+        <div class="fill__wrap">
+            <div class="fill__header">
+                <div class="fill__header-number">№</div>
+                <div class="fill__header-descr">Наименование работ</div>
+                <div class="fill__header-count">Кол-во</div>
+                <div class="fill__header-department">Отдел</div>
+                <div class="fill__header-object">Структурная еденица</div>
+            </div>
+            <div class="fill__body">
+                <div class="fill__body-block">
+                    <div class="fill__body-number">1</div>
+                    <div class="fill__body-descr">
+                        <input class="fill__descr-input" type="text">
+                    </div>
+                    <div class="fill__body-count">
+                        <input class="fill__count-input" type="text">
+                    </div>
+                    <div class="fill__body-department">
+                        <input class="fill__department-input" type="text">
+                    </div>
+                    <div class="fill__body-object">
+                        <input class="fill__object-input" type="text">
+                    </div>
+                </div>
+            </div>
+            <button class="add">Добавить строку</button>
+            <button class="apply">Отправить заявку</button>
+        </div>
+    </section>
+    <section id="agreement" class="agreement">
+        <h2 class="title">Заявки, ожидающие подтверждения</h2>
+    </section>
+    <section id="work" class="work">
+        <h2 class="title">Заявки в работе</h2>
+    </section>
+    <section id="closeapp" class="closeapp">
+        <h2 class="title">Архив завершенных заявок</h2>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

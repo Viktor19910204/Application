@@ -1,0 +1,128 @@
+{
+  "bd": {
+    "4": {
+      "application": {
+        "0": {
+          "descr": "1",
+          "count": "1",
+          "department": "1",
+          "object": "1",
+          "note": {}
+        }
+      },
+      "GI": true,
+      "TO": true,
+      "ZNM": false,
+      "GM": false,
+      "dateSupply": "27.02.2023",
+      "dateApprove": "27.02.2023",
+      "closeApplication": true
+    },
+    "5": {
+      "application": {
+        "0": {
+          "descr": "2",
+          "count": "2",
+          "department": "2",
+          "object": "2",
+          "note": {}
+        }
+      },
+      "GI": true,
+      "TO": false,
+      "ZNM": false,
+      "GM": false,
+      "dateSupply": "27.02.2023",
+      "dateApprove": "27.02.2023",
+      "closeApplication": true
+    },
+    "6": {
+      "application": {
+        "0": {
+          "descr": "3",
+          "count": "3",
+          "department": "3",
+          "object": "3",
+          "note": {}
+        }
+      },
+      "GI": true,
+      "TO": false,
+      "ZNM": false,
+      "GM": false,
+      "dateSupply": "27.02.2023",
+      "dateApprove": "27.02.2023",
+      "closeApplication": false
+    },
+    "7": {
+      "application": {
+        "0": {
+          "descr": "4",
+          "count": "4",
+          "department": "4",
+          "object": "4",
+          "note": {}
+        }
+      },
+      "GI": true,
+      "TO": false,
+      "ZNM": false,
+      "GM": false,
+      "dateSupply": "27.02.2023",
+      "dateApprove": "27.02.2023",
+      "closeApplication": false
+    },
+    "8": {
+      "application": {
+        "0": {
+          "descr": "6",
+          "count": "6",
+          "department": "6",
+          "object": "6",
+          "note": {}
+        }
+      },
+      "GI": true,
+      "TO": false,
+      "ZNM": false,
+      "GM": false,
+      "dateSupply": "27.02.2023",
+      "dateApprove": "27.02.2023",
+      "closeApplication": false
+    },
+    "9": {
+      "application": {
+        "0": {
+          "descr": "7",
+          "count": "7",
+          "department": "7",
+          "object": "7",
+          "note": {}
+        }
+      },
+      "GI": false,
+      "TO": false,
+      "ZNM": false,
+      "GM": false,
+      "dateSupply": "27.02.2023",
+      "dateApprove": "XX.XX.XXXX",
+      "closeApplication": false
+    },
+    "mainIngeneer": {
+      "login": "kolmykovva",
+      "password": "kolmykovva"
+    },
+    "mainMechanic": {
+      "login": "sapunovev",
+      "password": "sapunovev"
+    },
+    "technicalHead": {
+      "login": "kovalevmv",
+      "password": "kovalevmv"
+    },
+    "headMechanization": {
+      "login": "ponikarovvi",
+      "password": "ponikarovvi"
+    }
+  }
+}

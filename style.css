@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-ExtraBold.woff);
+    font-weight: 700;
+}
+
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -42,9 +55,9 @@
     margin-top: 80px;
 }
 .block {
-    width: 100px;
+    width: 60px;
     height: 5px;
-    background-color: aqua;
+    background-color: #42686f;
 }
 .block_vertical {
     transform: rotate(90deg) translateX(-3px);
@@ -351,6 +364,7 @@ a {
 }
 
 body {
+    font-family: 'Montserrat';
     position: relative;
     margin: 0;
 }
@@ -364,6 +378,10 @@ body {
     display: none;
 }
 
-
+@media (max-width: 1024px) {
+    .container {
+        width: 1025px;
+    }
+}
 
  
